@@ -1,4 +1,8 @@
-* Briefly describe the main characteristics in UP & Agile Development
+* Briefly describe the main characteristics in UP & Agile Development.
+** TODO
+** TODO
+** TODO
+** TODO 
 * How do they fit to ”Development of Large Systems”?
 * Make a list of advantages and disadvantages for each of the methods
 * What are the charateristics of the process and the deliverables?
