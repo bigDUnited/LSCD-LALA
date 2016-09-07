@@ -16,6 +16,11 @@
 *** Simplicity—the art of maximizing the amount of work not done—is essential
 *** Best architectures, requirements, and designs emerge from self-organizing teams
 *** Regularly, the team reflects on how to become more effective, and adjusts accordingly
+# OVERVIEW
+*** Iterative, incremental and evolutionary(break product development work into small increments)
+*** Efficient and face-to-face communication(include a customer representative)
+*** Very short feedback loop and adaptation cycle(daily stand-up)
+*** Quality focus(unit tests...)
 * How do they fit to ”Development of Large Systems”?
 * Make a list of advantages and disadvantages for each of the methods
 * What are the charateristics of the process and the deliverables?
