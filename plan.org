@@ -1,0 +1,8 @@
+* Briefly describe the main characteristics in UP & Agile Development
+* How do they fit to ”Development of Large Systems”?
+* Make a list of advantages and disadvantages for each of the methods
+* What are the charateristics of the process and the deliverables?
+* When will you recommend UP versus Agile Development? Explain why.
+* Is there any difference if you are looking at ”The System Lifecycle”
+  and the requirements for maintainability and Non Functional
+  Requirements (e.g. FURPS+ see next page)?
