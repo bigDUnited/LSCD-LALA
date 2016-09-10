@@ -1,13 +1,13 @@
 System Operation Contract
 
-Operation: 			logIn(username: String, hashPassword: String)
+Operation: 		logIn(username: String, hashPassword: String)
 Cross References:	Use Cases: Log in
 Preconditions: 		- The user should input their username and password and submit
 
 Postconditions: 	- If the login was successful the user will receive a session string.
 					- If the login was unsuccessful the user will receive an error message.
 					
-Operation: 			createReservation(int journeyId, List<Client> clients, List<Vehicle> vehicles, String sessionId)
+Operation: 		createReservation(journeyId: Integer, clients: List<Client> ,vehicles: List<Vehicle>, sessionId: String)
 Cross References:	Use Cases: Create a reservation
 Preconditions: 		- The user should be logged in
 					- The user should input their reservation details and submit
