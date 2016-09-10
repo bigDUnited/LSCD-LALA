@@ -1,0 +1,12 @@
+As a user I want to reserve a ticket for me.
+
+As a user I want to choose to reserve a ticket for
+either island A or B.
+
+As a user who lives on island A/B I would like to enter my CPR
+number so that I can get a free ticket.
+
+As a user I want to choose a time for departure based on when the
+ferry departures.
+
+As a user I want to reserve a ticket for other people also.
