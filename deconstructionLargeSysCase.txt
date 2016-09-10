@@ -20,12 +20,12 @@ SM - mainly A-B;
 Ferry usage (edge case)
 If 1-2 ferries are not in usage, we should borrow ferries from another minicipality
 
-System for reservations:
+System for reservation+s:
 The system does not work because of the PURCHASE OF A NEW FERRY (MF) and its kinda fucked up lalala
 
 Ferry characteristics:
 BF - can support more cars (if supports more cars, cannot support a lot of lorries) Lorry - big ass trucks.
-MF - can support big machinery tractors, harvesters (is this lorry or not?) Rearrangement should be planned for at least 24 hrs.
+MF - can support big machinery tractors, harvesters. Rearrangement should be planned for at least 24 hrs.
 SF - can support people (only residents can bring their own cars because of lalala)
 
 Stuff:
