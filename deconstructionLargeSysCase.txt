@@ -1,0 +1,32 @@
+2 ferry lines - 3 pernament ferries
+
+Ferry lines :
+A - Startup point; B - Island 1; C - Island 2
+
+Ferry lines times:
+A - B = 20 mins
+A - C = 60 mins
+
+Ferry types :
+1 BF - Big ferry 
+1 MD - Medium ferry
+1 SM - Small ferry
+
+Ferry usage :
+BF - mainly A-C; rarely A-B
+MF - summer A-B; winter A-B & A-C
+SM - mainly A-B; 
+
+Ferry usage (edge case)
+If 1-2 ferries are not in usage, we should borrow ferries from another minicipality
+
+System for reservations:
+The system does not work because of the PURCHASE OF A NEW FERRY (MF) and its kinda fucked up lalala
+
+Ferry characteristics:
+BF - can support more cars (if supports more cars, cannot support a lot of lorries) Lorry - big ass trucks.
+MF - can support big machinery tractors, harvesters (is this lorry or not?) Rearrangement should be planned for at least 24 hrs.
+SF - can support people (only residents can bring their own cars because of lalala)
+
+Stuff:
+Minor islands - people who live there are entitled to free rides
