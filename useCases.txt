@@ -8,8 +8,25 @@ Postconditions
     Success Guarantees:
         A ticket is saved on the system.
 	A ticket reservation is shown on the tickets view page on the user page.
-
 Preconditions: User has to be logged in.
 Triggers: The user creates a ticket reservation entry in the database.
+Basic flow:
+      User logs in
+      User buys ticket
+      A ticket reservation is shown
+      User logs out
+Extensions:
+
+
+Use Case: 
+Primary Actor: 
+Scope: 
+Level: !
+Brief: 
+Postconditions
+    Minimal Guarantees:
+    Success Guarantees:
+Preconditions:
+Triggers:
 Basic flow:
 Extensions:
