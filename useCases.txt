@@ -1,0 +1,15 @@
+Use Case: Reserve a ticket
+Primary Actor: Registered User
+Scope: a ticket reservation system
+Level: !
+Brief: User reserves a ticket on the system for himself.
+Postconditions
+    Minimal Guarantees:
+    Success Guarantees:
+        A ticket is saved on the system.
+	A ticket reservation is shown on the tickets view page on the user page.
+
+Preconditions: User has to be logged in.
+Triggers: The user creates a ticket reservation entry in the database.
+Basic flow:
+Extensions:
