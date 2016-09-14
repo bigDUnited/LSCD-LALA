@@ -63,7 +63,7 @@
       </counter>
       <counter>
         <item-type stereotype="" type="AbstractElementGroup" />
-        <value>6</value>
+        <value>3</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -128,7 +128,7 @@
       <owned-items />
       <style class="default" />
       <attributes>
-        <attribute id="a17376260691c4e8da1d302a6d4937d01735" cid="AT035" name="License_plate" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a17376260691c4e8da1d302a6d4937d01735" cid="AT035" name="licensePlate" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false" />
       </attributes>
       <operations />
       <template-parameters>
@@ -468,17 +468,17 @@
             <class />
           </item>
           <item id="di448302953894866940" iid="22abfb6c9be44d71a162e3f54d8a5bf4" creation-date="09/10/2016 18:14:24" order-index="13" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="635" y1="536" x2="470" y2="619" start-border-pos="0.625892857142857" end-border-pos="0.124107142857143">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="635" y1="536" x2="470" y2="603" start-border-pos="0.625892857142857" end-border-pos="0.124107142857143">
               <points>
                 <point x="635" y="536" />
-                <point x="470" y="619" />
+                <point x="470" y="603" />
               </points>
             </layout>
             <relation from="di538938670282638117" from-iid="688ebf1c08134c419eb18ad08be069fb" to="di874163977993444460" to-iid="365cb697230844478f9df6ca763bc4f4" />
             <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="0.4944835,-16.39259" />
           </item>
           <item id="di874163977993444460" iid="365cb697230844478f9df6ca763bc4f4" creation-date="09/10/2016 17:50:17" order-index="11" type="entity">
-            <layout ax="400.5" ay="619" awidth="140" aheight="160" x="400.5" y="619" width="140" height="160" angle="0" />
+            <layout ax="400.5" ay="603" awidth="140" aheight="160" x="400.5" y="603" width="140" height="160" angle="0" />
             <class />
           </item>
           <item id="di870601299900250738" iid="fba95242ec4143e2af3f032203b0c9a6" creation-date="09/10/2016 18:15:40" order-index="14" type="relation">
