@@ -13,7 +13,7 @@ public class VehicleType {
 		return model;
 	}
 
-	public VehicleType getRestraints() {
+	public String getRestraints() {
 		return restraints;
 	}
 }

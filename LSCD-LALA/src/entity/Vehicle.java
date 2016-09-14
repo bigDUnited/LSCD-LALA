@@ -4,8 +4,8 @@ public class Vehicle {
 	private String licensePlate;
 	private VehicleType type;
 
-	public Vehicle(String licensePlate, String type) {
-		this.licensePlate = lisencePlate;
+	public Vehicle(String licensePlate, VehicleType type) {
+		this.licensePlate = licensePlate;
 		this.type = type;
 	}
 
