@@ -1,0 +1,7 @@
+specific journey - datetime+route
+vechicle type - cars-1/lorry-3/truck-2/heavy machinery-5 0/20 - big ferry
+reservation - slot for a specific journey which includes number of
+	      people and vechicle type.
+ticket - reservation that has been paid.
+customer - person that can create reservations and buy tickets
+administrator - person who has all permissions to the system. 
