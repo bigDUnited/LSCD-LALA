@@ -1,0 +1,10 @@
+* Rework logical data model(now it's a domain model).
+* Logical model includes specific vehicle types.
+* separate ticket and reservation.
+* don't include users and clients from the start.
+* full set of use case *diagrams*.
+* user has to select time, vehicle type...
+* one thing should complete the other.
+* define important concepts in a file(Reservation etc.).
+* DON'T USE FUCKING ENTITY CLASSES. Use only DTOs.
+* Keep DTOs shallow.
