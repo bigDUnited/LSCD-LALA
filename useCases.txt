@@ -1,93 +1,59 @@
 Use Case: Reserve a ticket
-Primary Actor: Registered User
+Primary Actor: Registered Customer
 Scope: a ticket reservation system
 Level: !
-Brief: User reserves a ticket on the system for himself.
+Brief: Customer reserves a ticket on the system for himself.
 Postconditions
     Minimal Guarantees:
     Success Guarantees:
-        A ticket is saved on the system.
-	A ticket reservation is shown on the tickets view page on the user page.
-Preconditions: User has to be logged in.
-Triggers: The user creates a ticket reservation entry in the database.
+        A reservation is saved on the system.
+	A reservation is shown on the reservation overview page.
+Preconditions: Customer has to be logged in.
+Triggers: The customer creates a ticket reservation entry in the database.
 Basic flow:
-      User logs in
-      User inputs preferred options for buying a ticket
-      User selects "buy ticket"
-      User goes to third party transaction web site(PayPal etc.)
-      User finishes transaction
+      Customer logs in
+      Customer clicks "Add reservation" on overview page.
+      Customer inputs date and time in a calendar form.
+      Customer inputs number of people to be on the ferry.
+      Customer selects "Reserve"
       A ticket reservation is shown on a overview page
-      User logs out
-Extensions:
+      Customer logs out
 
-Use Case: Reserving a free ticket
-Primary Actor: Registered User/Resident
+
+Use Case: Making reservation for vechicles
+Primary Actor: Registered Customer
 Scope: a ticket reservation system
 Level: !
-Brief: A resident of one of the islands buys a ticket.
+Brief: Customer 
 Postconditions
     Minimal Guarantees:
     Success Guarantees:
-        A ticket is saved on the system.
-	A ticket reservation is shown on the tickets view page on the user page.
+        A reservation including vechicles is saved on the system.
+	A reservation including vechicles is shown on the reservation overview page.
 Preconditions: 
-    User has to be logged in.
-    Ticket reservation has to be made for a resident.
-Triggers: The user creates a ticket reservation entry in the database.
+    Customer has to be logged in.
+    Customer has to be on the reservation page, placing a reservation.
+Triggers: The customer creates a ticket reservation entry in the database.
 Basic flow:
-      User logs in
-      User inputs preferred options for buying a ticket
-      User enters optional field with CPR number of resident.
-      User selects "buy ticket"
-      User identifies resident with third party website(NETS etc.)
-      A ticket reservation is shown on a overview page
-      User logs out
-Extensions:
+      Customer selects the optional "Add transport"(can be selected multiple times).
+      Customer enters details about transport(class/type and registration number).
+      Customer adds more transports or selects "Reserve" and finalizes reservation.
+      Customer logs out
 
-Use Case: Reserving a car/transport for a ticket
-Primary Actor: Registered User
+Use Case: 
+Primary Actor: Registered Customer
 Scope: a ticket reservation system
 Level: !
-Brief: User 
+Brief: 
 Postconditions
     Minimal Guarantees:
     Success Guarantees:
-        A ticket for a transport/s is saved on the system.
-	A ticket reservation for transport/s is shown on the tickets
-	view page on the user page attached to a ticket.
-Preconditions: 
-    User has to be logged in.
-Triggers: The user creates a ticket reservation entry in the database.
+Preconditions:
+Triggers:
 Basic flow:
-      User is on ticket reservation page, buying a ticket.
-      User selects optional link "Add transport"(can be selected multiple times).
-      User enters details about transport(mainly weight and volume related parameters)
-      User selects "buy ticket"
-      User buys a ticket in the standard way.
 Extensions:
 
-Use Case: Reserving multiple tickets
-Primary Actor: Registered User
-Scope: a ticket reservation system
-Level: !
-Brief: User 
-Postconditions
-    Minimal Guarantees:
-    Success Guarantees:
-        Multiple tickets are saved on the system.
-	Ticket reservations are shown on the tickets view page.
-Preconditions: 
-    User has to be logged in.
-Triggers: The user creates a ticket reservation entries in the database.
-Basic flow:
-      User logs in.
-      User inputs preferred options for buying a ticket.
-      User selects optional link "Add ticket"(can be selected multiple times).
-      User fills out preferred options for this ticket(or copies over from first one).
-      Ticket reservations are shown on the overview page.
-      User pays in the standard way.
-      User logs out.
-Extensions:
+
 
 Use Case: 
 Primary Actor: 
