@@ -1,69 +1,59 @@
-Use Case: Reserve a ticket
-Primary Actor: Registered Customer
-Scope: a ticket reservation system
-Level: !
-Brief: Customer reserves a ticket on the system for himself.
+Use Case: 	Make a reservation
+Primary Actor: 	Customer
+Scope: 		Reservation page and reservation detail page.
+Level: 		!
+Brief: 		Customer makes a reservation on the system
+Preconditions: 
 Postconditions
     Minimal Guarantees:
+    	Get a response from the system.
     Success Guarantees:
         A reservation is saved on the system.
-	A reservation is shown on the reservation overview page.
-Preconditions: Customer has to be logged in.
-Triggers: The customer creates a ticket reservation entry in the database.
+	A reservation is shown on the reservation details page.
+
+Triggers: 	The customer creates a reservation entry in the database.
 Basic flow:
-      Customer logs in
-      Customer clicks "Add reservation" on overview page.
-      Customer inputs date and time in a calendar form.
-      Customer inputs number of people to be on the ferry.
-      Customer selects "Reserve"
-      A ticket reservation is shown on a overview page
-      Customer logs out
+	Customer selects ferry line.
+	Customer inputs date and time in a calendar form.
+	Customer inputs number of people to be on the ferry.
+	Customer selects vehicle type.
+	Customer clicks "Reserve".
+	A reservation is shown on a reservation details page.
 
 
-Use Case: Making reservation for vechicles
-Primary Actor: Registered Customer
-Scope: a ticket reservation system
-Level: !
-Brief: Customer 
-Postconditions
+Use Case: 	Adding journeys
+Primary Actor: 	Administratoin
+Scope: 		Admin panel.
+Level: 		++
+Preconditions:	Be on the administraton panel
+Postconditions:
     Minimal Guarantees:
+    	Get a response from the system.
     Success Guarantees:
-        A reservation including vechicles is saved on the system.
-	A reservation including vechicles is shown on the reservation overview page.
-Preconditions: 
-    Customer has to be logged in.
-    Customer has to be on the reservation page, placing a reservation.
-Triggers: The customer creates a ticket reservation entry in the database.
+    	The journey is saved in the system.
+    	The new journey is shown in the journey table.
+    	
+Triggers:	The journey is added to the database.
 Basic flow:
-      Customer selects the optional "Add transport"(can be selected multiple times).
-      Customer enters details about transport(class/type and registration number).
-      Customer adds more transports or selects "Reserve" and finalizes reservation.
-      Customer logs out
-
-Use Case: 
-Primary Actor: Registered Customer
-Scope: a ticket reservation system
-Level: !
-Brief: 
-Postconditions
+	Click 'Add Journey' button.
+	Select ferry line.
+	Select ferry.
+	Select date and time.
+	Submit.
+	
+Use Case: 	Deleting journeys
+Primary Actor: 	Administratoin
+Scope: 		Admin panel.
+Level: 		++
+Preconditions:	Be on the administraton panel
+Postconditions:
     Minimal Guarantees:
+    	Get a response from the system.
     Success Guarantees:
-Preconditions:
-Triggers:
+    	The journey is deleted from the system.
+    	The journey is not shown in the journey table anymore.
+    	
+Triggers:	The journey is deleted from the database.
 Basic flow:
-Extensions:
-
-
-
-Use Case: 
-Primary Actor: 
-Scope: 
-Level: !
-Brief: 
-Postconditions
-    Minimal Guarantees:
-    Success Guarantees:
-Preconditions:
-Triggers:
-Basic flow:
-Extensions:
+	Selete journey from the journey table.
+	Click 'Delete' button.
