@@ -1,4 +1,8 @@
 public interface Facade {
-	Session logIn (String username, String passwordHash);
-	ticket createReservation (String journeyId, listOfClients, listOfVehicles, sessionId);
+	ReservationSummaryDTO makeReservation (String journeyId, int numOfPeople, String vehicleType);
+	JourneysDTO getJourneys (String ferryLineId);
+	AvailabilityDTO getAvailability (String journeyId);
+	FerryLinesDTO listFerryLines();
+	JourneysDTO createJourney (Date date, String ferryId, String ferryLineId);
+	boolean deleteJourney (String journeyId);
 }
