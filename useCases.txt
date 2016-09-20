@@ -13,11 +13,12 @@ Postconditions
 
 Triggers: 	The customer creates a reservation entry in the database.
 Basic flow:
-      Customer inputs date and time in a calendar form.
-      Customer inputs number of people to be on the ferry.
-      Customer selects vehicle type.
-      Customer clicks "Reserve".
-      A reservation is shown on a reservation details page.
+	Customer selects ferry line.
+	Customer inputs date and time in a calendar form.
+	Customer inputs number of people to be on the ferry.
+	Customer selects vehicle type.
+	Customer clicks "Reserve".
+	A reservation is shown on a reservation details page.
 
 
 Use Case: 	Adding journeys
