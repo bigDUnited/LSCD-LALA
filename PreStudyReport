@@ -41,11 +41,13 @@ which provides a perfect solution but for a specific case. This may result in a 
 area.
 
 
-Overall description:
 
-Martin or Boyko
-
-
+* Overall description:
+** Functional requirements:
+** Non-functional requirements:
+* Description of the domain (Model):
+* Description of the required hardware incl. basic software (if any):
+  
 
 Project definition and recommendations:
 Development path: We will work with UP
