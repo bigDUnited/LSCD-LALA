@@ -32,13 +32,17 @@ The only stakeholders that we have are the product owner (teacher) and the devel
 
 Risk analysis:
 
-Unclear or no information with the client - The whole development process may be at risk if there is no communication between
+Unclear or no information from the client - The whole development process may be at risk if there is no communication between
 developers and clients. This issue usually appears when the client is not certain in their desires or they lack concentration 
-on the communication process.
+in the communication process. 
 
 Building a solution which overextends the basic requirements - If the developers are too stuborn they may create a program
 which provides a perfect solution but for a specific case. This may result in a product which is not fully developed in every 
-area.
+area. 
+
+The product may no satisfy the customers desires - if the client is uncertain in their requirements or the developers are not
+being able to build the correct solution or anything in between then the final version of the program may be restricted and may
+not satisfy the needs of the every day customer. The solution for this and everything upperly mentioned in communication.
 
 
 Overall description:
