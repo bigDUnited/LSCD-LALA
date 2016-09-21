@@ -2,9 +2,9 @@ Problem analysis:
 
 If the team members don't do their job the project timeline will not be achievable and the deadline will have to be pushed back.
 
-If the technology related problems are persistent the deadline will have to be pushed back or the number of delievered features will go down.
+If the technology related problems are persistent the deadline will have to be pushed back or the number of delivered features will go down.
 
-If the communication with the client is limited and the development team doesn't get the required information in time the development will be delayed and/or the wrong features will be delievered.
+If the communication with the client is limited and the development team doesn't get the required information in time the development will be delayed and/or the wrong features will be delivered.
 
 If communication between the different teams fails this will result in the product not being completed/not meeting the requirements.
 
@@ -25,7 +25,7 @@ Create a reservation system with at least the reservation capability and a simpl
 
 Stakeholders:
 
-We don't have stakeholders...
+The only stakeholders that we have are the product owner (teacher) and the developers (us). The contribution of the developers is what brings the product to life. The product owner is the one answering all the answers for the developers, he is also the one representing the hypothetical customers.
 
 
 
@@ -47,6 +47,6 @@ MTT: Java, OracleDB, SCRUM, Pair Programming.
 QA: Unit test from the beginning of the development. Integration testing as soon as possible, Jenkins after we start deploying.
 Further development: Unknown at this phase.
 Incremental development approach: yes
-Overall planfor the whole project life: MARTIN OR BOYKO WRITE SOME SHIT HERE
+Overall plan for the whole project life: MARTIN OR BOYKO WRITE SOME SHIT HERE
 Detailed plan for the next step: Unknown at this phase.
 Cost/benefit: free cause we're students and benefit is that we learn.
