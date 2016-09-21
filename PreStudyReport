@@ -59,6 +59,8 @@ MTT: Java, OracleDB, SCRUM, Pair Programming.
 QA: Unit test from the beginning of the development. Integration testing as soon as possible, Jenkins after we start deploying.
 Further development: Unknown at this phase.
 Incremental development approach: yes
-Overall plan for the whole project life: MARTIN OR BOYKO WRITE SOME SHIT HERE
+Overall plan for the whole project life: Stable teamwork with frequent communication with the client. Following the UP goals, we 
+    should make sure that we will have specific requirement from the beggining. In this way we will try to reduce the changes during
+    the development process to minimum.
 Detailed plan for the next step: Unknown at this phase.
 Cost/benefit: free cause we're students and benefit is that we learn.
