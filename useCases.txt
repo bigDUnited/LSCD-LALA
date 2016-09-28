@@ -15,7 +15,7 @@ Basic flow:
 		The customer selects a location.
 		The customer selects a route.
 		The customer selects a journey.
-		The customer selects number of passangers.
+		The customer selects number of passengers.
 		The customer selects a vehicle type.
 		The customer submits the reservation.
 		A reservation details are shown on the reservation summary page.
