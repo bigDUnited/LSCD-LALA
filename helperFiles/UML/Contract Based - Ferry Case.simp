@@ -75,7 +75,7 @@
       </counter>
       <counter>
         <item-type stereotype="" type="AbstractElementGroup" />
-        <value>12</value>
+        <value>6</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -1595,7 +1595,7 @@
             <associated-diagrams />
             <owned-items />
             <style class="default" />
-            <sequence-action type="reply" message="list&lt;JourneyDTO&gt;" is-asynchronous="false" from="di647123928380067491" to="di498018237103333714" return-value="" assign-to-variable="">
+            <sequence-action type="reply" message="JourneysDTO" is-asynchronous="false" from="di647123928380067491" to="di498018237103333714" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
