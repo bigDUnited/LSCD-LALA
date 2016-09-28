@@ -1445,7 +1445,7 @@
             <associated-diagrams />
             <owned-items />
             <style class="default" />
-            <sequence-action type="call" message="getLocation()" is-asynchronous="false" from="di518323751740403333" to="di385705587456092544" return-value="" assign-to-variable="">
+            <sequence-action type="call" message="getLocations()" is-asynchronous="false" from="di518323751740403333" to="di385705587456092544" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
