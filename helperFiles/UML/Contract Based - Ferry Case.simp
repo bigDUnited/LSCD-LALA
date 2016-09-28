@@ -75,7 +75,7 @@
       </counter>
       <counter>
         <item-type stereotype="" type="AbstractElementGroup" />
-        <value>6</value>
+        <value>4</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -1539,7 +1539,7 @@
             <associated-diagrams />
             <owned-items />
             <style class="default" />
-            <sequence-action type="call" message="fill in the # of people &amp; vehicle type" is-asynchronous="false" from="di737076198942207200" to="di172058414742381665" return-value="" assign-to-variable="">
+            <sequence-action type="call" message="select journey, fill in the # of people &amp; vehicle type" is-asynchronous="false" from="di737076198942207200" to="di172058414742381665" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
