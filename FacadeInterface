@@ -1,0 +1,6 @@
+public interface FacadeInterface {
+  list<LocatoinDTO> getLocations();
+  list<RouteDTO> getRoutes(locationId);
+  JourneysDTO getJourney(routeId);
+	ReservationSummaryDTO makeReservation (String journeyId, int numOfPeople, String vehicleType);
+}
