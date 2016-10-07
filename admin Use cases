@@ -1,0 +1,68 @@
+Use Case: 	Add schedule
+Primary Actor: 	Administrator
+Scope: 		Create a schedule
+Level: 		++
+Brief: 		The admin creates a schedule to be able to generate journeys.
+Preconditions: Be on administration panel
+Postconditions
+	Minimal Guarantees:
+		The administrator will receive a response from the server.
+	Success Guarantees:
+    A schedule is added to a route.
+    The created schedule is shown to the administrator.
+Triggers: 	A schedule object gets added to the database.
+Basic flow:
+    The administrator selects location.
+    The administrator selects the route.
+    The administrator fills in day of the week and starting hour.
+    The administrator clicks on the create button.
+    The schedule details are shown back to administrator.
+    
+    #########################################################################
+    
+Use Case: 	Generate journeys
+Primary Actor: 	Administrator
+Scope: 		Generate journeys
+Level: 		++
+Brief: 		The admin generates journeys for a route based on a schedule.
+Preconditions: 
+    Be on administration panel
+    Have a valid schedule
+Postconditions
+	Minimal Guarantees:
+		The administrator will receive a response from the server.
+	Success Guarantees:
+    A list of journeys is creates.
+    The created journeys are shown to the administrator.
+Triggers: 	A journey object gets added to the database.
+Basic flow:
+    The administrator selects location.
+    The administrator selects the route.
+    The administrator selects the schedule.
+    The administrator clicks on the generate button.
+    The journeys are created and shown back to the administrator.
+        
+    #########################################################################
+    
+Use Case: 	Delete journey
+Primary Actor: 	Administrator
+Scope: 		Delete journey
+Level: 		++
+Brief: 		The admin deletes a specific journey.
+Preconditions: 
+    Be on administration panel
+    Have a valid journey
+Postconditions
+	Minimal Guarantees:
+		The administrator will receive a response from the server.
+	Success Guarantees:
+    The journey is removed from the database.
+    The journey is removed from the list in administrator panel.
+Triggers: 	A journey gets deleted from database.
+Basic flow:
+    The administrator selects location.
+    The administrator selects the route.
+    The administrator selects the journey.
+    The administrator clicks on the delete button.
+    The journey is deleted from database and removed from the journey list in administrator panel.
+    
